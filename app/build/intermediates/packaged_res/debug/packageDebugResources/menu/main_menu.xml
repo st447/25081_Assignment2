@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Sign In"
+            android:icon="@drawable/baseline_profile_24"
+            android:id="@+id/profile"/>
+        <item
+            android:title="Sign Up"
+            android:icon="@drawable/baseline_add_circle_outline_24"
+            android:id="@+id/home"/>
+        <item
+            android:title="Calculator"
+            android:icon="@drawable/baseline_calculate_24"
+            android:id="@+id/calculator"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Profil">
+            <menu>
+                <item
+                    android:title="Login"
+                    android:icon="@drawable/baseline_profile_24"
+                    android:id="@+id/profile_login"/>
+                <item
+                    android:title="Profil"
+                    android:icon="@drawable/login_back"
+                    android:id="@+id/profile_icon"/>
+                <item
+                    android:title="Log Out"
+                    android:icon="@drawable/baseline_cancel_24"
+                    android:id="@+id/profile_logout"/>
+            </menu>
+        </item>
+
+
+        <item
+
+            android:title="comunicate">
+
+            <menu>
+
+                <item
+                    android:title="share"
+                    android:icon="@drawable/baseline_file_open_24"
+                    android:id="@+id/share_icon"/>
+                <item
+                    android:title="share via"
+                    android:icon="@drawable/baseline_file_open_24"
+                    android:id="@+id/share_via_icon"/>
+
+
+            </menu>
+
+        </item>
+
+
+
+
+    </group>
+
+</menu>
